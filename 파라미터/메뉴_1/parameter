@@ -1,0 +1,2 @@
+1. "${sessionScope.loginId == null}
+파라미터 명 loginId
