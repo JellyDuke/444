@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D97C4244-571E-8EE6-12F0-066AF28534DE" schemaObject="721A1FD1-5542-A906-CA72-E441FBEFEBCD" name="MEMBERS">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>MEMBERS</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:10 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MID" id="B36942BD-4EF3-6931-A42F-D67D6568D6D5">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>MEMBERS</sourceObjSchema>
+<sourceObjName>MID</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MPW" id="2711E08F-CB46-6763-3455-2A1B379933A1">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>MEMBERS</sourceObjSchema>
+<sourceObjName>MPW</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MNAME" id="B61E8B90-37F8-91AE-0E1C-8508EA6CE85C">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>MEMBERS</sourceObjSchema>
+<sourceObjName>MNAME</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MNICKNAME" id="689E5971-9A16-80AA-E531-000F50D41C0D">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>MEMBERS</sourceObjSchema>
+<sourceObjName>MNICKNAME</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MPOINT" id="3D8BD761-8470-A911-0FC9-1701D4DD8552">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>MEMBERS</sourceObjSchema>
+<sourceObjName>MPOINT</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MPROFILE" id="F6F8A195-DD23-4BAF-690E-40A57DA6B4AB">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>MEMBERS</sourceObjSchema>
+<sourceObjName>MPROFILE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MSTATE" id="59C3A617-4E59-E42E-42E2-D12E759315C8">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>MEMBERS</sourceObjSchema>
+<sourceObjName>MSTATE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5672F0F-ACA4-1BCB-D8CE-F73933312EA5" name="PK_MEMBERS_MID">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>PK_MEMBERS_MID</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B36942BD-4EF3-6931-A42F-D67D6568D6D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C48D8122-6D59-93CD-8B54-5383182EAD00" name="UK_MEMBERS_MNICKNAME">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>UK_MEMBERS_MNICKNAME</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="689E5971-9A16-80AA-E531-000F50D41C0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F78FD6E6-C817-F586-47CB-C824F322E29B" schemaObject="721A1FD1-5542-A906-CA72-E441FBEFEBCD" name="PK_MEMBERS_MID">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>PK_MEMBERS_MID</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B36942BD-4EF3-6931-A42F-D67D6568D6D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4FFE725-AFC1-B2A4-8877-D11375B6C13D" schemaObject="721A1FD1-5542-A906-CA72-E441FBEFEBCD" name="UK_MEMBERS_MNICKNAME">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>UK_MEMBERS_MNICKNAME</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="689E5971-9A16-80AA-E531-000F50D41C0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CEC829C-C624-962F-A37B-6F76514A3B19" schemaObject="721A1FD1-5542-A906-CA72-E441FBEFEBCD" name="INQUIRES">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>INQUIRES</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:10 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ICODE" id="0AFA9DEE-4D03-31EF-DBB2-FBC1BF1A759A">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>INQUIRES</sourceObjSchema>
+<sourceObjName>ICODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMCODE" id="134F079D-F958-733E-6A0E-52610C08BC99">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>INQUIRES</sourceObjSchema>
+<sourceObjName>IMCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEB43FE9-30BA-EE41-45E8-DD6BC20032DF" referredColumn="B36942BD-4EF3-6931-A42F-D67D6568D6D5"/>
+</associations>
+</Column>
+<Column name="ICONTENT" id="6277E0FC-7BD6-F506-18AD-231E3E9A0ED0">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>INQUIRES</sourceObjSchema>
+<sourceObjName>ICONTENT</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>1500</dataTypeSize>
+<ownDataTypeParameters>1500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDATE" id="4275E1C5-35B2-A9B6-A32E-EC6CFCC7B967">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>INQUIRES</sourceObjSchema>
+<sourceObjName>IDATE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IREDATE" id="DF065793-724C-B955-19A4-456BD941FE21">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>INQUIRES</sourceObjSchema>
+<sourceObjName>IREDATE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IRECONTENT" id="2454D538-A66F-CE16-BC48-004B31C813E8">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>INQUIRES</sourceObjSchema>
+<sourceObjName>IRECONTENT</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>1500</dataTypeSize>
+<ownDataTypeParameters>1500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47771C6D-E796-0993-3299-6F858EF45302" name="PK_INQUIRES_ICODE">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>PK_INQUIRES_ICODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AFA9DEE-4D03-31EF-DBB2-FBC1BF1A759A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3918B634-CF88-43E1-CEA9-061FCF49CBD2" schemaObject="721A1FD1-5542-A906-CA72-E441FBEFEBCD" name="PK_INQUIRES_ICODE">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>PK_INQUIRES_ICODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AFA9DEE-4D03-31EF-DBB2-FBC1BF1A759A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2593529F-62B0-C44E-FDC8-E2DB227E8749" name="FK_INQUIRES_IMCODE">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:12 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="134F079D-F958-733E-6A0E-52610C08BC99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

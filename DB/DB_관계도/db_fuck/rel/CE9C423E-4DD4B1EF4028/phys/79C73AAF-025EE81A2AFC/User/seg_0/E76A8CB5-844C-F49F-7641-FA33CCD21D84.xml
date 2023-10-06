@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="GAMESTORE" directorySegmentName="seg_0" id="E76A8CB5-844C-F49F-7641-FA33CCD21D84">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjName>GAMESTORE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:10 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<schemaObject>721A1FD1-5542-A906-CA72-E441FBEFEBCD</schemaObject>
+</UserOraclev10g>

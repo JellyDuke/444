@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F6506A92-FDB5-0F1D-ADBF-83D4A48D6300" containerWithKeyObject="70B023CA-C47D-A3BD-E8D7-3AF9EE430F6B" localFKIndex="050BBF3E-E8E7-B8F9-8F84-45CB7A863565" name="FK_ORDERS_OMCODE">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>FK_ORDERS_OMCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:12 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<referredTableLongName>GAMESTORE.MEMBERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D97C4244-571E-8EE6-12F0-066AF28534DE</referredTableID>
+<keyObject>E5672F0F-ACA4-1BCB-D8CE-F73933312EA5</keyObject>
+<referredKeyID>E5672F0F-ACA4-1BCB-D8CE-F73933312EA5</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>MID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

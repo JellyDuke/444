@@ -1,0 +1,201 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70B023CA-C47D-A3BD-E8D7-3AF9EE430F6B" schemaObject="721A1FD1-5542-A906-CA72-E441FBEFEBCD" name="ORDERS">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>ORDERS</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:10 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OCODE" id="B1A12E16-4D2D-506F-3683-CB5F091D723A">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>OCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ODATE" id="674DAAF3-E68D-0477-544E-4B952326E7AC">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ODATE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPRICE" id="29F765A2-0420-C8B5-A1FC-03CE5C37D091">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>OPRICE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OORIGINPRICE" id="5F3D76FA-3DCA-2A52-C1CD-C398C3B15D34">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>OORIGINPRICE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ODISCOUNT" id="03A4D2AB-7558-57BC-1930-2179BE5E3529">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ODISCOUNT</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OCCODE" id="393D891F-7EE9-BFB7-3CEF-070BBE103C76">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>OCCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C612469C-349B-B4B5-C9E5-2E5E69F1C8FB" referredColumn="B80094B0-D179-6234-412C-DF66FDF08B42"/>
+</associations>
+</Column>
+<Column name="OITEM" id="678DB2EF-E104-DB7C-809A-620FB0DCF622">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>OITEM</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OMCODE" id="46628DBE-6EB1-3948-4129-E2E6959857AA">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>OMCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6506A92-FDB5-0F1D-ADBF-83D4A48D6300" referredColumn="B36942BD-4EF3-6931-A42F-D67D6568D6D5"/>
+</associations>
+</Column>
+<Column name="OSTATE" id="7A77DAF9-C649-6B08-99A5-E46E6EC6944A">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>OSTATE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19D70A3B-6841-46BF-3E73-2EF7F9065952" name="PK_ORDERS_OCODE">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>PK_ORDERS_OCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1A12E16-4D2D-506F-3683-CB5F091D723A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F85B3C8-EB5F-4C87-E725-0FD868BCB1D0" schemaObject="721A1FD1-5542-A906-CA72-E441FBEFEBCD" name="PK_ORDERS_OCODE">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>PK_ORDERS_OCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1A12E16-4D2D-506F-3683-CB5F091D723A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3EEC3F7-67F2-68AA-44E4-EABCA7A47C9E" name="FK_ORDERS_CCODE">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:12 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="393D891F-7EE9-BFB7-3CEF-070BBE103C76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="050BBF3E-E8E7-B8F9-8F84-45CB7A863565" name="FK_ORDERS_OMCODE">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:12 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46628DBE-6EB1-3948-4129-E2E6959857AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

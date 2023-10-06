@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="748DDCAB-4D0A-462B-413A-03B29DFA14CC" schemaObject="721A1FD1-5542-A906-CA72-E441FBEFEBCD" name="COUPONS">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>COUPONS</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:10 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CCODE" id="B80094B0-D179-6234-412C-DF66FDF08B42">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>COUPONS</sourceObjSchema>
+<sourceObjName>CCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREGIST" id="D218C714-C06F-D08E-7560-57D4CD573026">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>COUPONS</sourceObjSchema>
+<sourceObjName>CREGIST</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPERCENT" id="A5BDD434-E07E-9993-2F1D-2777ABC54C7A">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>COUPONS</sourceObjSchema>
+<sourceObjName>CPERCENT</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CDEADLINE" id="9F291786-A8D8-803F-10BA-439A404F4126">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>COUPONS</sourceObjSchema>
+<sourceObjName>CDEADLINE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSED" id="86C937DC-C984-5C04-524A-9CD7E4316CFC">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>COUPONS</sourceObjSchema>
+<sourceObjName>CUSED</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COWNER" id="D75F411F-80A3-1759-CC5F-5A3D27F097B6">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>COUPONS</sourceObjSchema>
+<sourceObjName>COWNER</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C1E188C-2950-CEFB-95A0-76560399EEFA" referredColumn="B36942BD-4EF3-6931-A42F-D67D6568D6D5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C5D9178-C026-09F8-C384-1F2A1810CB30" name="PK_COUPONS_CCODE">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>PK_COUPONS_CCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B80094B0-D179-6234-412C-DF66FDF08B42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEB682CE-65E5-B5BC-AC3A-6F05739ECD79" schemaObject="721A1FD1-5542-A906-CA72-E441FBEFEBCD" name="PK_COUPONS_CCODE">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>PK_COUPONS_CCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B80094B0-D179-6234-412C-DF66FDF08B42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31B68224-CB5E-D393-8C00-84803348B104" name="FK_COUPONS_COWNER">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:12 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D75F411F-80A3-1759-CC5F-5A3D27F097B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

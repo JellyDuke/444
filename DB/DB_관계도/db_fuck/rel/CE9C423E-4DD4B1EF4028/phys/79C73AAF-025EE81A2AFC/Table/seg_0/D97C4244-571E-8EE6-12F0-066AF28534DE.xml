@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MEMBERS" directorySegmentName="seg_0" id="D97C4244-571E-8EE6-12F0-066AF28534DE">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:10 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<schemaObject>721A1FD1-5542-A906-CA72-E441FBEFEBCD</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>196C064D-BE56-5657-C89E-FC24E2BF928B</segment>
+<tableSpace>1D72FF5F-80A8-5B91-7990-F712C2B9C8A9</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MPW" id="2711E08F-CB46-6763-3455-2A1B379933A1">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MPOINT" id="3D8BD761-8470-A911-0FC9-1701D4DD8552">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MSTATE" id="59C3A617-4E59-E42E-42E2-D12E759315C8">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MNICKNAME" id="689E5971-9A16-80AA-E531-000F50D41C0D">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MID" id="B36942BD-4EF3-6931-A42F-D67D6568D6D5">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MNAME" id="B61E8B90-37F8-91AE-0E1C-8508EA6CE85C">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MPROFILE" id="F6F8A195-DD23-4BAF-690E-40A57DA6B4AB">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UK_MEMBERS_MNICKNAME" id="F4FFE725-AFC1-B2A4-8877-D11375B6C13D">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<schemaObject>721A1FD1-5542-A906-CA72-E441FBEFEBCD</schemaObject>
+<segment>153E1B3E-174A-F7E8-6BA2-45BC817F9E0B</segment>
+<tableSpace>1D72FF5F-80A8-5B91-7990-F712C2B9C8A9</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_MEMBERS_MID" id="F78FD6E6-C817-F586-47CB-C824F322E29B">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<schemaObject>721A1FD1-5542-A906-CA72-E441FBEFEBCD</schemaObject>
+<segment>153E1B3E-174A-F7E8-6BA2-45BC817F9E0B</segment>
+<tableSpace>1D72FF5F-80A8-5B91-7990-F712C2B9C8A9</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_MEMBERS_MID" id="E5672F0F-ACA4-1BCB-D8CE-F73933312EA5">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<segment>153E1B3E-174A-F7E8-6BA2-45BC817F9E0B</segment>
+<tableSpace>1D72FF5F-80A8-5B91-7990-F712C2B9C8A9</tableSpace>
+<existingIndex>F78FD6E6-C817-F586-47CB-C824F322E29B</existingIndex>
+<indexSegment>153E1B3E-174A-F7E8-6BA2-45BC817F9E0B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UK_MEMBERS_MNICKNAME" id="C48D8122-6D59-93CD-8B54-5383182EAD00">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<segment>153E1B3E-174A-F7E8-6BA2-45BC817F9E0B</segment>
+<tableSpace>1D72FF5F-80A8-5B91-7990-F712C2B9C8A9</tableSpace>
+<existingIndex>F4FFE725-AFC1-B2A4-8877-D11375B6C13D</existingIndex>
+<indexSegment>153E1B3E-174A-F7E8-6BA2-45BC817F9E0B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

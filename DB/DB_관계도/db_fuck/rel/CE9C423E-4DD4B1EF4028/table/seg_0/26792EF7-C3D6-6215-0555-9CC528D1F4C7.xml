@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26792EF7-C3D6-6215-0555-9CC528D1F4C7" schemaObject="721A1FD1-5542-A906-CA72-E441FBEFEBCD" name="REVIEWS">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>REVIEWS</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:10 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RCODE" id="DDED242F-39E8-749D-202E-3C766D54B9A1">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>REVIEWS</sourceObjSchema>
+<sourceObjName>RCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RGCODE" id="12BA242D-EAA7-6A42-2208-9C53BBC26C92">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>REVIEWS</sourceObjSchema>
+<sourceObjName>RGCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RMCODE" id="66A45620-CBD2-2CC5-FE1E-4A5A19281439">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>REVIEWS</sourceObjSchema>
+<sourceObjName>RMCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65EAF3A3-44C6-4058-0BF6-538547864840" referredColumn="B36942BD-4EF3-6931-A42F-D67D6568D6D5"/>
+</associations>
+</Column>
+<Column name="RDATE" id="7EB6304B-2608-6664-C0D7-616FD989C30E">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>REVIEWS</sourceObjSchema>
+<sourceObjName>RDATE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RSCORE" id="D3EDFA6E-E1D9-E6FD-9FCB-BA141237201E">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>REVIEWS</sourceObjSchema>
+<sourceObjName>RSCORE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RLIKE" id="B91027B8-902B-7196-064D-3A851B980F87">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>REVIEWS</sourceObjSchema>
+<sourceObjName>RLIKE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RCONTENT" id="0146F393-27C3-69FB-787D-2981CB5F9222">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>REVIEWS</sourceObjSchema>
+<sourceObjName>RCONTENT</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RSTATE" id="5E445B81-25AD-CD26-9625-492D720FF0E4">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>REVIEWS</sourceObjSchema>
+<sourceObjName>RSTATE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E16A001F-F70C-26B8-15C1-5E6E5F6A63A6" name="PK_REVIEWS_RCODE">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>PK_REVIEWS_RCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDED242F-39E8-749D-202E-3C766D54B9A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="451CCBD2-F568-27D5-4501-F6F8908722F0" schemaObject="721A1FD1-5542-A906-CA72-E441FBEFEBCD" name="PK_REVIEWS_RCODE">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>PK_REVIEWS_RCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDED242F-39E8-749D-202E-3C766D54B9A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B260D423-EE3E-391A-0108-47E8DFCB02B3" name="FK_REVIEWS_RMCODE">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:12 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66A45620-CBD2-2CC5-FE1E-4A5A19281439"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

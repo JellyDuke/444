@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5C1E188C-2950-CEFB-95A0-76560399EEFA" containerWithKeyObject="748DDCAB-4D0A-462B-413A-03B29DFA14CC" localFKIndex="31B68224-CB5E-D393-8C00-84803348B104" name="FK_COUPONS_COWNER">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>FK_COUPONS_COWNER</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:12 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<referredTableLongName>GAMESTORE.MEMBERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D97C4244-571E-8EE6-12F0-066AF28534DE</referredTableID>
+<keyObject>E5672F0F-ACA4-1BCB-D8CE-F73933312EA5</keyObject>
+<referredKeyID>E5672F0F-ACA4-1BCB-D8CE-F73933312EA5</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>MID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

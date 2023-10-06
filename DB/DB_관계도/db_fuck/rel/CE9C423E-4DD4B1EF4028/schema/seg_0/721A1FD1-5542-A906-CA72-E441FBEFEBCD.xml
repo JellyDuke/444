@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="GAMESTORE" directorySegmentName="seg_0" id="721A1FD1-5542-A906-CA72-E441FBEFEBCD">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:10 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<importedID>105A0F09-4B1D-1991-B10C-48C7DD43B392</importedID>
+</SchemaObject>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D180293F-F7A4-7FDB-9EEB-F0935CFAFD10" schemaObject="721A1FD1-5542-A906-CA72-E441FBEFEBCD" name="SHOPBASKET">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>SHOPBASKET</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:10 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SCODE" id="B5EC03E4-4850-131C-CABA-E8FD743C5C8D">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>SHOPBASKET</sourceObjSchema>
+<sourceObjName>SCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SMCODE" id="BFD175F3-7FC7-05D1-79A4-E7CFEA8FFF55">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>SHOPBASKET</sourceObjSchema>
+<sourceObjName>SMCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2E8798C-46AD-1AE4-B32A-ECCA9E35B34E" referredColumn="B36942BD-4EF3-6931-A42F-D67D6568D6D5"/>
+</associations>
+</Column>
+<Column name="SGCODE" id="7ED71209-82D9-729D-4EF9-8320F603A93E">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>SHOPBASKET</sourceObjSchema>
+<sourceObjName>SGCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E77A9C1E-8AAA-6003-2EA9-B703006D820A" referredColumn="269D8E6C-0524-E41C-F6D0-E9395F963F49"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D90946A-7C7F-1C55-5E23-3A2FB3164DB8" name="PK_SHOPBASKET_GCODE">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>PK_SHOPBASKET_GCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5EC03E4-4850-131C-CABA-E8FD743C5C8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FB39FC1-A5E0-5DE4-E29F-4A7202F0B2EB" schemaObject="721A1FD1-5542-A906-CA72-E441FBEFEBCD" name="PK_SHOPBASKET_GCODE">
+<sourceConnName>GAMESTORE</sourceConnName>
+<sourceObjSchema>GAMESTORE</sourceObjSchema>
+<sourceObjName>PK_SHOPBASKET_GCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5EC03E4-4850-131C-CABA-E8FD743C5C8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDBD4104-64C8-21B7-8443-E46AE57BD5AA" name="FK_SHOPBASKET_SGCODE">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:12 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7ED71209-82D9-729D-4EF9-8320F603A93E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD7B0646-D5BD-052D-4D2C-D0F9680EC99C" name="FK_SHOPBASKET_SMCODE">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:12 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFD175F3-7FC7-05D1-79A4-E7CFEA8FFF55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

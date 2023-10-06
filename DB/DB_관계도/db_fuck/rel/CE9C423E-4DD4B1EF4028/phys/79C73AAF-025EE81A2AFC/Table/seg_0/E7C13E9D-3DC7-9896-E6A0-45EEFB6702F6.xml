@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="GAMES" directorySegmentName="seg_0" id="E7C13E9D-3DC7-9896-E6A0-45EEFB6702F6">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:10 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<schemaObject>721A1FD1-5542-A906-CA72-E441FBEFEBCD</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>196C064D-BE56-5657-C89E-FC24E2BF928B</segment>
+<tableSpace>1D72FF5F-80A8-5B91-7990-F712C2B9C8A9</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="GMAKER" id="10046499-202F-F50A-0979-12442653B160">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GMAINIMG" id="1A0EDE16-E947-1230-F2E3-8921E5482CC3">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GPRICE" id="260F7586-FE20-34A3-8370-DA1424AEEA09">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GCODE" id="269D8E6C-0524-E41C-F6D0-E9395F963F49">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GPUBLISHER" id="3AA82AB2-46C2-C038-87C8-2BC5DA078859">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GSYSTEM" id="3AEB0ED6-640A-D31D-1D23-78C8D3B2FB50">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GSTATE" id="52A1C589-4FC0-2D4A-03FB-DF77C0684176">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GNAME" id="6F7D3850-8262-9812-B663-78413F249887">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GDEADLINE" id="799506BF-A500-3C76-8901-167FE674C1A3">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GSALE" id="A840B805-2233-2A36-1CC9-CB9E13547A35">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GCONTENT" id="B4A6CA5D-3061-B0C0-8FA6-1C93617A22F4">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GRELEASE" id="E16ADECF-48FA-3048-805C-0E5CC21AF708">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GTAG" id="F3F76833-1768-3055-2BB2-A4057C28F564">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GIMG" id="FCD6A2B3-E351-984A-0CAB-0727FBE926D1">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GVIDEO" id="FECEF58B-6B5B-07F4-CAC2-2EF5BD62B6A6">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_GAMES_GCODE" id="68868F30-CF49-A885-6F0E-5B61153217BC">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<schemaObject>721A1FD1-5542-A906-CA72-E441FBEFEBCD</schemaObject>
+<segment>153E1B3E-174A-F7E8-6BA2-45BC817F9E0B</segment>
+<tableSpace>1D72FF5F-80A8-5B91-7990-F712C2B9C8A9</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UK_GAMES_GNAME" id="A2ADFD26-C625-3DF9-EF19-42D7ED55B952">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<schemaObject>721A1FD1-5542-A906-CA72-E441FBEFEBCD</schemaObject>
+<segment>153E1B3E-174A-F7E8-6BA2-45BC817F9E0B</segment>
+<tableSpace>1D72FF5F-80A8-5B91-7990-F712C2B9C8A9</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_GAMES_GCODE" id="0B59690A-A2DA-962E-13AC-10E8C3C58DDA">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<segment>153E1B3E-174A-F7E8-6BA2-45BC817F9E0B</segment>
+<tableSpace>1D72FF5F-80A8-5B91-7990-F712C2B9C8A9</tableSpace>
+<existingIndex>68868F30-CF49-A885-6F0E-5B61153217BC</existingIndex>
+<indexSegment>153E1B3E-174A-F7E8-6BA2-45BC817F9E0B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UK_GAMES_GNAME" id="1CC466B7-EC54-03BC-2AE9-2EE8700BEF25">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<segment>153E1B3E-174A-F7E8-6BA2-45BC817F9E0B</segment>
+<tableSpace>1D72FF5F-80A8-5B91-7990-F712C2B9C8A9</tableSpace>
+<existingIndex>A2ADFD26-C625-3DF9-EF19-42D7ED55B952</existingIndex>
+<indexSegment>153E1B3E-174A-F7E8-6BA2-45BC817F9E0B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

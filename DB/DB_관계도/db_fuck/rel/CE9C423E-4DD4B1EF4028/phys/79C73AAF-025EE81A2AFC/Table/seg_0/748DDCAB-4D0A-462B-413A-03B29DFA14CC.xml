@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="COUPONS" directorySegmentName="seg_0" id="748DDCAB-4D0A-462B-413A-03B29DFA14CC">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:10 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<schemaObject>721A1FD1-5542-A906-CA72-E441FBEFEBCD</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>196C064D-BE56-5657-C89E-FC24E2BF928B</segment>
+<tableSpace>1D72FF5F-80A8-5B91-7990-F712C2B9C8A9</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CUSED" id="86C937DC-C984-5C04-524A-9CD7E4316CFC">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CDEADLINE" id="9F291786-A8D8-803F-10BA-439A404F4126">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CPERCENT" id="A5BDD434-E07E-9993-2F1D-2777ABC54C7A">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CCODE" id="B80094B0-D179-6234-412C-DF66FDF08B42">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREGIST" id="D218C714-C06F-D08E-7560-57D4CD573026">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COWNER" id="D75F411F-80A3-1759-CC5F-5A3D27F097B6">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_COUPONS_CCODE" id="FEB682CE-65E5-B5BC-AC3A-6F05739ECD79">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<schemaObject>721A1FD1-5542-A906-CA72-E441FBEFEBCD</schemaObject>
+<segment>153E1B3E-174A-F7E8-6BA2-45BC817F9E0B</segment>
+<tableSpace>1D72FF5F-80A8-5B91-7990-F712C2B9C8A9</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_COUPONS_COWNER" id="31B68224-CB5E-D393-8C00-84803348B104">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:12 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_COUPONS_CCODE" id="1C5D9178-C026-09F8-C384-1F2A1810CB30">
+<createdBy>user</createdBy>
+<createdTime>2023-10-06 11:21:11 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<segment>153E1B3E-174A-F7E8-6BA2-45BC817F9E0B</segment>
+<tableSpace>1D72FF5F-80A8-5B91-7990-F712C2B9C8A9</tableSpace>
+<existingIndex>FEB682CE-65E5-B5BC-AC3A-6F05739ECD79</existingIndex>
+<indexSegment>153E1B3E-174A-F7E8-6BA2-45BC817F9E0B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
